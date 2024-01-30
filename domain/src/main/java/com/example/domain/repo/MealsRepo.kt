@@ -4,6 +4,6 @@ import com.example.domain.entity.CategoryResponse
 
 interface MealsRepo {
 
-    fun getMealsFromRemote() : CategoryResponse
+   suspend fun getMealsFromRemote() : CategoryResponse
 
 }
